@@ -57,7 +57,7 @@ return LoadFont("Wendy/_wendy monospace numbers")..{
 	Name=pn.."Score",
 	InitCommand=function(self)
 		self:valign(1):horizalign(right)
-		self:zoom(0.5)
+		self:zoom(0.45)
 	end,
 
 	BeginCommand=function(self)
