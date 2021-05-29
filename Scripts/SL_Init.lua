@@ -36,6 +36,7 @@ local PlayerDefaults = {
 				ErrorBar = "None",
 				ErrorBarUp = false,
 				ErrorBarMultiTick = false,
+				Vocalization = "Random",
 			}
 			self.Streams = {
 				-- Chart identifiers for caching purposes.
