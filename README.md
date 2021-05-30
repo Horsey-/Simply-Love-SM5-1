@@ -34,6 +34,8 @@ SongDescription on ScreenSelectMusic and TitleAndBanner on ScreenEvaluation have
 
 ![HasEdit image](https://i.imgur.com/elOjMHM.png)
 
+✅ There is now a preference to display the group banner for songs that do not have a banner. This is configurable in Simply Love Options. When a song group (pack) has a banner, but a song does not have a banner, the song group (pack) banner will be shown. When there is no group (pack) banner, and a song does not have a banner, the default banner will be shown. The default is to show the group banner when no banner is present.
+
 ## About
 
 Simply Love is a StepMania 5 theme for the post-ITG community.
