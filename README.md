@@ -42,6 +42,11 @@ SongDescription on ScreenSelectMusic and TitleAndBanner on ScreenEvaluation have
   *Song credit information is now in a quad that is the same colour as the difficulty box but darkened (ligher colour in rainbow mode). The difficulty box was also widened from a square to a rectangle to better fit the difficulty name text.
 ![ScreenEvaluation cleanup](https://i.imgur.com/KL6WYIw.png)
 
+✅ Songs can be quickly restarted using CTRL + R (regardless if KeyboardFeatures is enabled). You MUST enable EventMode for this feature.
+
+There's a bug whereby if ScreenGameplay is reloaded and ESC is used to escape to ScreenSelectMusic, the SongWheel will be blank. This bug does not happen in EventMode, thus the requirement)
+
+
 ## About
 
 Simply Love is a StepMania 5 theme for the post-ITG community.
