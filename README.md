@@ -30,6 +30,10 @@ SongDescription on ScreenSelectMusic and TitleAndBanner on ScreenEvaluation have
 ![ScreenSelectMusic clock](https://i.imgur.com/Mhjj8qL.png)
 ![ScreenEvaluation clock](https://i.imgur.com/aNRHfFr.png)
 
+✅ Moved "Has Edit" graphic to outside the SongWheel to give more room for the SongTitle in the MusicWheel. This implementation is much cleaner.
+
+![HasEdit image](https://i.imgur.com/elOjMHM.png)
+
 ## About
 
 Simply Love is a StepMania 5 theme for the post-ITG community.
