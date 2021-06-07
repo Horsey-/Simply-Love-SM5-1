@@ -46,6 +46,19 @@ SongDescription on ScreenSelectMusic and TitleAndBanner on ScreenEvaluation have
 
 There's a bug whereby if ScreenGameplay is reloaded and ESC is used to escape to ScreenSelectMusic, the SongWheel will be blank. This bug does not happen in EventMode, thus the requirement)
 
+✅ Completely reworked ScreenSelectMusic in widescreen aspect ratio to better make use of space. ScreenSelectMusic is no longer very lopsided in appearance with the song wheel on the right side and player elements squished on the left side. The main goal of the rework was to put all of the P1 assets on the left and P2 assets on the right. I achieved this by creating a the new screen "ScreenSelectMusicWide".
+
+*ScreenSelectMusic is now visually balanced
+*There is a huge amount of real estate opened up for new features on this screen.
+*There is absolutely no second guessing which information pertains to which player.
+*Intuitively, song difficulty increases from left to right (sorry Semitic language speakers).
+*There's room to put a profile card (à la Waterfall, Groovenights) with even more room to add other stats as well (à la Digital Dance).
+*This layout eventually frees up enough space for live chart previews for each player
+*ScreenSelectMusic is different when using widescreen, old UI is preserved in 4:3 aspect ratio because the old UI is a better use of the lesser amount of screen space.
+
+In a future commit, I would like to change the I/O buttons for this screen making MenuLeft/PadLeft and MenuRight/PadRight select difficulty (without needing to double tap), and MenuUp and MenuDown scroll through the SongWheel.
+
+![ScreenSelectMusic rework](https://i.imgur.com/3tSx2bt.png)
 
 ## About
 
